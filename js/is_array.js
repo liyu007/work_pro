@@ -3,7 +3,7 @@
  * */
 function is_arr_by_instance_of(obj) {
     // 根据构造函数判断
-    return obj instanceof Array;
+    return obj instanceof Array; 
 }
 
 function is_array_by_proto(obj) {
